@@ -18,22 +18,22 @@ Education
 
 Work experience
 ======
-* 2019–present: Tech Lead and Lecturer, Israel Tech Challenge (https://www.itc.tech/)
+* 2019–present: Tech Lead and Lecturer, [Israel Tech Challenge](https://www.itc.tech/)
   * Designing syllabus and course materials, delivering lecturers, mentoring student projects
 
-* 2019–2021: NLP Data Scientist, Pipl, Inc. (https://pipl.com/)
+* 2019–2021: NLP Data Scientist, [Pipl, Inc.](https://pipl.com/)
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
 
-* 2018–2019: NLP Data Scientist, Reverso - Softissimo (http://reverso.net/)
+* 2018–2019: NLP Data Scientist, [Reverso - Softissimo](http://reverso.net/)
 
-* 2017–2018: Software Developer, K Dictionaries (http://kdictionaries.com/)
+* 2017–2018: Software Developer, [K Dictionaries](http://kdictionaries.com/)
 
-* 2015–2016: Software and Algorithm Engineer, VoiceItt (https://voiceitt.com/)
+* 2015–2016: Software and Algorithm Engineer, [VoiceItt](https://voiceitt.com/)
 
-* Summer 2016: Algorithm Development Intern, SECOM (http://www.secom.co.jp/english/index.html)
+* Summer 2016: Algorithm Development Intern, [SECOM](http://www.secom.co.jp/english/index.html) (Japan)
 
-* 2012–2015: Undergraduate Research in Cognitive Linguistics, TedLab, MIT (http://tedlab.mit.edu/)
+* 2012–2015: Undergraduate Research in Cognitive Linguistics, [TedLab](http://tedlab.mit.edu/), MIT
 
 
 Publications
