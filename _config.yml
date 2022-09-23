@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Morris Alper"
   avatar           : "profile.png"
-  bio              : "MSc student at Tel Aviv University. My research interests include multimodal learning combining natural language processing and computer vision, and digital humanities."
+  bio              : "MSc student at Tel Aviv University, data scientist and educator"
   location         : "Tel Aviv, Israel"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=M2RsdCUAAAAJ"
-  email            :
+  email            : "morrisalper (at) mail.tau.ac.il"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
