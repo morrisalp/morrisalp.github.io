@@ -27,7 +27,7 @@ Work experience
 
 * 2017–2018: Software Developer, [K Dictionaries](http://kdictionaries.com/)
 
-* 2015–2016: Software and Algorithm Engineer, [VoiceItt](https://voiceitt.com/)
+* 2015–2016: Software and Algorithm Engineer, [Voiceitt](https://voiceitt.com/)
 
 * Summer 2016: Algorithm Development Intern, [SECOM](http://www.secom.co.jp/english/index.html) (Japan)
 
