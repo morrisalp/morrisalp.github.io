@@ -48,10 +48,19 @@ Talks
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  * 2019–present: teaching and mentoring at Israel Tech Challenge (ITC) data science bootcamp
+    * Includes giving lectures, writing coding exercises, and mentoring students
+    * Topics of lectures given include:
+      * Classification and regression algorithms
+      * Unsupervised learning
+      * Introduction to deep learning
+      * Deep learning with TensorFlow
+      * Computer vision and natural language processing
+    * Serving as advisor to students for their final data science projects
   
+  * 2013: Guest lecture for 9.59/24.905J Lab in Psycholinguistics, MIT
+    * Lecture: *Coding for Amazon Mechanical Turk*
+
 Selected Awards and Honors
 ======
 * 2011: International Linguistics Olympiad, Pittsburgh, USA
