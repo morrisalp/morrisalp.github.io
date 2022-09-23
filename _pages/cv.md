@@ -11,30 +11,30 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. in Mathematics and Linguistics (dual major), Massachusetts Institute of Technology, 2016
+  * GPA: 4.9 / 5.0
+* M.Sc. in Computer Science, GitHub University, 2023 (expected)
+  * GPA: 95.6 / 100
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019–present: Tech Lead and Lecturer, Israel Tech Challenge (https://www.itc.tech/)
+  * Designing syllabus and course materials, delivering lecturers, mentoring student projects
 
-* Fall 2015: Research Assistant
-  * Github University
+* 2019–2021: NLP Data Scientist, Pipl, Inc. (https://pipl.com/)
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* 2018–2019: NLP Data Scientist, Reverso - Softissimo (http://reverso.net/)
+
+* 2017–2018: Software Developer, K Dictionaries (http://kdictionaries.com/)
+
+* 2015–2016: Software and Algorithm Engineer, VoiceItt (https://voiceitt.com/)
+
+* Summer 2016: Algorithm Development Intern, SECOM (http://www.secom.co.jp/english/index.html)
+
+* 2012–2015: Undergraduate Research in Cognitive Linguistics, TedLab, MIT (http://tedlab.mit.edu/)
+
 
 Publications
 ======
@@ -54,6 +54,17 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Selected Awards and Honors
 ======
-* Currently signed in to 43 different slack teams
+* 2011: International Linguistics Olympiad, Pittsburgh, USA
+  * 1st place individual round (gold medal)
+  * 1st place team round (team USA Red)
+  * Best solution, problem 2
+  * Zhurinski Memorial Prize
+* 2008: International Linguistics Olympiad, Slanchev Bryag, Bulgaria
+  * Tied for 6th place individual round (silver medal)
+  * 1st place team round (team USA)
+
+Volunteering
+======
+* 2017–2018: English tutoring at the Israeli [African Refugee Development Center (ARDC)](https://www.ardc-israel.org/)
