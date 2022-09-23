@@ -22,8 +22,6 @@ Work experience
   * Designing syllabus and course materials, delivering lecturers, mentoring student projects
 
 * 2019–2021: NLP Data Scientist, [Pipl, Inc.](https://pipl.com/)
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
 * 2018–2019: NLP Data Scientist, [Reverso - Softissimo](http://reverso.net/)
 
