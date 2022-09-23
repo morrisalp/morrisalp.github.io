@@ -13,7 +13,7 @@ Education
 ======
 * B.Sc. in Mathematics and Linguistics (dual major), Massachusetts Institute of Technology, 2016
   * GPA: 4.9 / 5.0
-* M.Sc. in Computer Science, GitHub University, 2023 (expected)
+* M.Sc. in Computer Science, Tel Aviv University, 2023 (expected)
   * GPA: 95.6 / 100
 
 Work experience
