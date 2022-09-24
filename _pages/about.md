@@ -12,6 +12,6 @@ I am an MSc student at the [Blavatnik School of Computer Science, Tel Aviv Unive
 
 I also work for [Israel Tech Challenge (ITC)](https://www.itc.tech/) in the Fellows Data Science program, serving as the Tech Lead and as a lecturer. I design the syllabus and teaching materials based on my previous industry experience as a data scientist as well as insights from my academic career. I give lectures on topics including classical machine learning and deep learning, and mentor students as they complete their data science final projects.
 
-I received my B.Sc. from the Massachusetts Institute of Technology with a dual major in mathematics and linguistics. My prior employment experience includes work as a data scientist in the industry, focusing on applications of natural language processing.
+I received my B.Sc. from MIT with a dual major in mathematics and linguistics. My prior employment experience includes work as a data scientist in the industry, focusing on applications of natural language processing.
 
 You may contact me with inquiries via email: `morrisalper (at) mail.tau.ac.il`
