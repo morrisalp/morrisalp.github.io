@@ -22,16 +22,22 @@ Work experience
   * Designing syllabus and course materials, delivering lecturers, mentoring student projects
 
 * 2019–2021: NLP Data Scientist, [Pipl, Inc.](https://pipl.com/)
+  * Extracting information from unstructured free text and web data, including text summarization, entity recognition and relationship extraction. Designing customized deep learning architectures as well as using classic machine learning algorithms.
 
 * 2018–2019: NLP Data Scientist, [Reverso - Softissimo](http://reverso.net/)
+  * Designing NLP algorithms to automatically correct and enrich linguistic data in Reverso's ecosystem of language tools. Applying and innovating new NLP methods and data mining in various languages including English, French, Hebrew, Arabic, and Japanese. 
 
 * 2017–2018: Software Developer, [K Dictionaries](http://kdictionaries.com/)
+  * Built REST API for linked lexicographic data, managed continuous integration and integration with cloud services, and developed algorithms for enriching linguistic data.
 
 * 2015–2016: Software and Algorithm Engineer, [Voiceitt](https://voiceitt.com/)
+  * Prototyped speech recognition algorithms, integrated them into a REST server, documented and tested API, and was in charge of continuous integration. 
 
 * Summer 2016: Algorithm Development Intern, [SECOM](http://www.secom.co.jp/english/index.html) (Japan)
+  * Improved facial recognition rate by 3% on company’s test database using machine learning techniques.
 
 * 2012–2015: Undergraduate Research in Cognitive Linguistics, [TedLab](http://tedlab.mit.edu/), MIT
+  * Designed surveys on Amazon Mechanical Turk and conducted statistical analysis on the data collected to study autism and linguistics, linguistic universals, word learning, and other topics.
 
 
 Publications
