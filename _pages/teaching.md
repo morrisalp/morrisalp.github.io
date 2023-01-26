@@ -15,6 +15,10 @@ Topics that I have taught include:
 
 I also serve as their advisor as they work on their final data science projects, including writing online articles describing their work. Projects that my students have produced include:
 
+* 2023
+  * [Identity detection for automated Irish dancing photo curation](https://medium.com/@annalelchuk/automatic-photos-sorting-8b232f1f745a) – Anna Lelchuk, Nissim Cohen, Shai Rosenfeld
+  * [Neural photo colorization](https://medium.com/@arno.benizri/colorizing-black-white-pictures-with-neural-networks-an-odyssey-8ff54e8c5bd3) – Arno Benizri, Kseniia Konoshko, Lior Ayash
+  * [Sign language video understanding](https://medium.com/@oronird/sign-language-video-translator-8bc80480fbf5) – Nir David, Alexey Konev, Jia Ying
 * 2022
   * [Automatic photo curation with computer vision](https://medium.com/@asisher/how-to-choose-your-good-photos-by-ai-4dfe0e8bbb10) – Asi Sheratzki, Ary Enrique, Eran Perelman
   * [Moodika: Generating Spotify Playlists based on Free Text Input](https://medium.com/@doron.reiffman/moodika-generating-spotify-playlists-based-on-free-text-input-8f4eccc1254) – Noam Goldberg, Samuel Nataf, and Doron Reiffman
