@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-At ITC, my responsibilities include giving lectures on various data science topics, writing coding exercises, and helping students through their studies.
+During my time at [Israel Tech Challenge (ITC)](https://www.itc.tech/), my responsibilities included giving lectures on various data science topics, writing coding exercises, and helping students through their studies.
 
 Topics that I have taught include:
 * Classical machine learning (classification and regression algorithms, unsupervised learning, ...)
@@ -13,7 +13,7 @@ Topics that I have taught include:
 * Keras and TensorFlow
 * Natural language processing and computer vision
 
-I also serve as their advisor as they work on their final data science projects, including writing online articles describing their work. Projects that my students have produced include:
+I also served as the students' advisor as they work on their final data science projects, including writing online articles describing their work. Projects that my students have produced include:
 
 * 2023
   * [Identity detection for automated Irish dancing photo curation](https://medium.com/@annalelchuk/automatic-photos-sorting-8b232f1f745a) – Anna Lelchuk, Nissim Cohen, Shai Rosenfeld
