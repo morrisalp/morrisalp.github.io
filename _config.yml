@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Morris Alper"
 title_separator          : "-"
 name                     : &name "Morris Alper"
-description              : &description "Incoming PhD student at Tel Aviv University"
+description              : &description "PhD student at Tel Aviv University"
 url                      : https://morrisalp.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "morrisalp.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Morris Alper"
   avatar           : "profile.png"
-  bio              : "Incoming PhD student at Tel Aviv University"
+  bio              : "PhD student at Tel Aviv University"
   location         : "Tel Aviv, Israel"
   employer         :
   pubmed           : 
