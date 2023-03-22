@@ -15,7 +15,7 @@ Education
   * GPA: 4.9 / 5.0
 * M.Sc. in Computer Science (graduated with honors), Tel Aviv University, 2023
   * GPA: 98 / 100
-* PhD student in Electrical Engineering, Tel Aviv University, 2023-current
+* PhD student in Electrical Engineering, Tel Aviv University, 2023–present
 
 Work experience
 ======
