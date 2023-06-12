@@ -75,9 +75,10 @@ Selected Awards and Honors
   * 1st place team round (team USA Red)
   * Best solution, problem 2
   * Zhurinski Memorial Prize
+* 2009: International Linguistics Olympiad, Wrocław, Poland
+  * 1st place team round (team USA Red)
 * 2008: International Linguistics Olympiad, Slanchev Bryag, Bulgaria
   * Tied for 6th place individual round (silver medal)
-  * 1st place team round (team USA)
 
 Volunteering
 ======
