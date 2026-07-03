@@ -183,3 +183,45 @@ span.highlight {
   color: #888;
   font-style: italic;
 }
+
+.tag {
+  display: inline-block;
+  margin: 2px 4px 2px 0;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background-color: #eef3fa;
+  color: #1772d0;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.filter-label {
+  display: inline-block;
+  margin: 3px 6px 3px 3px;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #555;
+}
+
+.tag-filter {
+  display: inline-block;
+  margin: 3px;
+  padding: 5px 12px;
+  border-radius: 12px;
+  border: 1px solid #1772d0;
+  background-color: #ffffff;
+  color: #1772d0;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.tag-filter:hover {
+  background-color: #eef3fa;
+}
+
+.tag-filter.active {
+  background-color: #1772d0;
+  color: #ffffff;
+}

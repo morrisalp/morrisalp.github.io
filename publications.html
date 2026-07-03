@@ -33,13 +33,27 @@
                   <h2>Publications</h2>
                 </td>
               </tr>
+              <tr>
+                <td style="text-align:center;padding-bottom:20px">
+                  <div id="tag-filters">
+                    <span class="filter-label">Filter by:</span>
+                    <button class="tag-filter active" data-tag="all">All</button>
+                    <button class="tag-filter" data-tag="Vision-Language">Vision-Language</button>
+                    <button class="tag-filter" data-tag="Computer Vision">Computer Vision</button>
+                    <button class="tag-filter" data-tag="Low-Resource Languages">Low-Resource Languages</button>
+                    <button class="tag-filter" data-tag="Audio/Speech">Audio/Speech</button>
+                    <button class="tag-filter" data-tag="Digital Humanities">Digital Humanities</button>
+                    <button class="tag-filter" data-tag="Interpretability">Interpretability</button>
+                  </div>
+                </td>
+              </tr>
             </tbody>
           </table>
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
+            <tbody id="pub-list">
 
-              <tr>
+              <tr data-tags="Audio/Speech|Low-Resource Languages">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/renikud.webp' width="180">
@@ -58,13 +72,14 @@
                   <br>
                   <em>arXiv</em>, 2026
                   <br>
+                  <span class="tag">Audio/Speech</span><span class="tag">Low-Resource Languages</span>
                   <p>
                     ReNikud improves Hebrew grapheme-to-phoneme conversion by leveraging weak audio supervision from unlabeled speech and a pseudo-vocalization architecture with character-level alignment as an inductive bias.
                   </p>
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Vision-Language|Interpretability">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/namesakes.webp' width="180">
@@ -85,13 +100,14 @@
                   <br>
                   <em>arXiv</em>, 2026
                   <br>
+                  <span class="tag">Vision-Language</span><span class="tag">Interpretability</span>
                   <p>
                     NAMESAKES is a benchmark of over 1,000 public figures with a black-box behavioral probe for detecting whether text-to-image models memorize and reproduce individuals' likenesses, requiring no reference photos or model internals.
                   </p>
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Digital Humanities|Low-Resource Languages">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/cwomp.webp' width="180">
@@ -113,6 +129,7 @@
                   <br>
                   <em>arXiv</em>, 2026
                   <br>
+                  <span class="tag">Digital Humanities</span><span class="tag">Low-Resource Languages</span>
                   <p>
                     CWoMP (Contrastive Word-Morpheme Pretraining) treats morphemes as atomic units, contrastively learning
                     morpheme representations to automate interlinear glossed text (IGT) production for language documentation.
@@ -120,7 +137,7 @@
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Audio/Speech|Low-Resource Languages">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/phonikud.webp' width="180">
@@ -140,13 +157,14 @@
                   <br>
                   <em>Interspeech</em>, 2026
                   <br>
+                  <span class="tag">Audio/Speech</span><span class="tag">Low-Resource Languages</span>
                   <p>
                     Phonikud is an open-source Hebrew grapheme-to-phoneme system outputting fully-specified IPA transcriptions including stress. We also introduce ILSpeech, a Hebrew audio-text-IPA corpus, a G2P benchmark, and audio-to-IPA models for TTS evaluation.
                   </p>
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Low-Resource Languages">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/conlangcrafter.webp' width="160">
@@ -167,13 +185,14 @@
                   <br>
                   <em>ACL (Oral)</em>, 2026
                   <br>
+                  <span class="tag">Low-Resource Languages</span>
                   <p>
                     ConlangCrafter leverages LLMs to generate constructed languages through a multi-hop pipeline that decomposes language design into modular stages, with components encouraging consistency and typological diversity.
                   </p>
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Computer Vision">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/wildcat3d.webp' width="160">
@@ -194,13 +213,14 @@
                   <br>
                   <em>NeurIPS</em>, 2025
                   <br>
+                  <span class="tag">Computer Vision</span>
                   <p>
                     WildCAT3D generates novel views of scenes learned from diverse 2D scene image data captured in the wild, enabling appearance-controlled novel view synthesis from a single image.
                   </p>
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Digital Humanities|Computer Vision">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/protosnap.webp' width="150">
@@ -223,13 +243,14 @@
                   <br>
                   <em>ICLR</em>, 2025
                   <br>
+                  <span class="tag">Digital Humanities</span><span class="tag">Computer Vision</span>
                   <p>
                     ProtoSnap aligns prototype-based skeletons to cuneiform sign scans, with applications for downstream cuneiform OCR.
                   </p>
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Computer Vision">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/waffle.webp' width="180">
@@ -250,13 +271,14 @@
                   <br>
                   <em>WACV (Oral)</em>, 2025
                   <br>
+                  <span class="tag">Computer Vision</span>
                   <p>
                     WAFFLE is a multimodal floorplan understanding dataset of nearly 20K diverse floorplan images and metadata, enabling progress on new building understanding tasks.
                   </p>
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Vision-Language">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/mocha.webp' width="180">
@@ -277,13 +299,14 @@
                   <br>
                   <em>EMNLP</em>, 2024
                   <br>
+                  <span class="tag">Vision-Language</span>
                   <p>
                     A framework for addressing open-vocabulary hallucinations in image captioning models, including a new benchmark and a reinforcement learning-based method to reduce such hallucinations.
                   </p>
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Vision-Language|Interpretability">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/hc.webp' width="180">
@@ -301,13 +324,14 @@
                   <br>
                   <em>ECCV (Oral)</em>, 2024
                   <br>
+                  <span class="tag">Vision-Language</span><span class="tag">Interpretability</span>
                   <p>
                     We show that foundation VLMs like CLIP model visual-semantic hierarchies, proposing the Radial Embedding framework for probing and optimizing this knowledge, along with the HierarCaps dataset of ground-truth image caption hierarchies.
                   </p>
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Vision-Language">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/ICC.webp' width="160">
@@ -327,6 +351,7 @@
                   <br>
                   <em>ACL (Findings)</em>, 2024
                   <br>
+                  <span class="tag">Vision-Language</span>
                   <p>
                     We quantify image caption concreteness using information loss in foundation vision-language models,
                     and use this score to filter web-scale multimodal datasets.
@@ -334,7 +359,7 @@
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Computer Vision|Vision-Language">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/halo.webp' width="160">
@@ -358,6 +383,7 @@
                   <br>
                   <em>Eurographics</em>, 2024
                   <br>
+                  <span class="tag">Computer Vision</span><span class="tag">Vision-Language</span>
                   <p></p>
                   <p>
                     We learn a semantic localization field for textual descriptions over collections of in-the-wild
@@ -366,7 +392,7 @@
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Vision-Language|Interpretability">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/kiki.webp' width="160">
@@ -389,6 +415,7 @@
                     Presentation from IMVC 2024
                   </a>
                   <br>
+                  <span class="tag">Vision-Language</span><span class="tag">Interpretability</span>
                   <p></p>
                   <p>
                     By generating images using prompts containing pseudowords (nonsense words) and analyzing their
@@ -399,7 +426,7 @@
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Vision-Language">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/hhi.webp' width="160">
@@ -417,6 +444,7 @@
                   <br>
                   <em>ICCV</em>, 2023
                   <br>
+                  <span class="tag">Vision-Language</span>
                   <p></p>
                   <p>
                     We model human-human interaction understanding in images as free text
@@ -426,7 +454,7 @@
                 </td>
               </tr>
 
-              <tr>
+              <tr data-tags="Vision-Language|Interpretability">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <img src='images/ibb.webp' width="160">
@@ -447,6 +475,7 @@
                   <br>
                   <em>CVPR</em>, 2023
                   <br>
+                  <span class="tag">Vision-Language</span><span class="tag">Interpretability</span>
                   <p></p>
                   <p>
                     We find that multimodally trained text encoders outperform unimodally
@@ -460,6 +489,26 @@
         </td>
       </tr>
   </table>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var buttons = document.querySelectorAll('.tag-filter');
+      var rows = document.querySelectorAll('#pub-list tr[data-tags]');
+
+      buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          buttons.forEach(function (b) { b.classList.remove('active'); });
+          button.classList.add('active');
+
+          var tag = button.getAttribute('data-tag');
+          rows.forEach(function (row) {
+            var tags = row.getAttribute('data-tags').split('|');
+            row.style.display = (tag === 'all' || tags.indexOf(tag) !== -1) ? '' : 'none';
+          });
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
