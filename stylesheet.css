@@ -152,3 +152,34 @@ span.highlight {
   text-align: right;
   font-size: small;
 }
+
+.navbar {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0 5px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar a {
+  display: inline-block;
+  margin: 0 18px;
+  padding: 4px 2px;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #333;
+}
+
+.navbar a:hover {
+  color: #f09228;
+}
+
+.navbar a.active {
+  color: #1772d0;
+  border-bottom: 2px solid #1772d0;
+}
+
+.placeholder-note {
+  color: #888;
+  font-style: italic;
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>For Students - Morris Alper</title>
+
+  <meta name="author" content="Morris Alper">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <nav class="navbar">
+            <a href="index.html">About</a>
+            <a href="publications.html">Publications</a>
+            <a href="students.html" class="active">For Students</a>
+            <a href="news.html">News &amp; Awards</a>
+          </nav>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td class="section">
+                  <h2>For Students</h2>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px">
+                  <p>
+                    This page collects practical resources and guidelines for students and collaborators working
+                    with me &mdash; e.g. how to upload papers to arXiv, information about the conferences we
+                    typically submit to, and other lab conventions. It is a work in progress and will be filled in
+                    over time.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td class="section">
+                  <h3>Uploading Papers to arXiv</h3>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px">
+                  <p>
+                    We typically write papers in <a href="https://www.overleaf.com">Overleaf</a>. arXiv expects
+                    submission files in a specific format, and it's easy to get stuck on non-compiling submissions.
+                    Suggested workflow:
+                  </p>
+                  <ol>
+                    <li>
+                      Use the <a href="https://github.com/google-research/arxiv-latex-cleaner">arXiv LaTeX
+                      cleaner</a> (<code>pip install arxiv-latex-cleaner</code>, or on Mac
+                      <code>brew install arxiv_latex_cleaner</code>) before you publish &mdash; otherwise your
+                      comments, unused files, etc. will be visible to the public.
+                    </li>
+                    <li>
+                      On Overleaf, click "Submit" &rarr; arXiv &rarr; "Download project ZIP".
+                    </li>
+                    <li>
+                      Unzip the downloaded file, then run <code>arxiv_latex_cleaner PROJECT_DIRECTORY</code> in the
+                      command line (you may need the <code>--keep_bib</code> option). This creates a cleaned
+                      directory with an <code>_arXiv</code> suffix.
+                      Note: this automatically resizes images to save space; if you have high-resolution figures
+                      that need to be displayed at full resolution, adjust this in the cleaner's options.
+                    </li>
+                    <li>
+                      If your project has nested directories, you may need to move the bibliography file
+                      (<code>*.bib</code>) into the inner directory.
+                    </li>
+                    <li>
+                      Zip the cleaned directory and submit it to arXiv (arXiv requires a zipped directory for
+                      upload).
+                    </li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td class="section">
+                  <h3>Conferences We Submit To</h3>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px">
+                  <p>
+                    We mostly target the major NLP, vision, and speech venues, including:
+                  </p>
+                  <ul>
+                    <li>NLP: ACL, EMNLP, NAACL, and <a href="https://aclrollingreview.org/">ACL Rolling Review
+                        (ARR)</a>, plus relevant workshops (e.g. ArabicNLP)</li>
+                    <li>Vision: CVPR, ICCV, ECCV, NeurIPS, ICLR, WACV</li>
+                    <li>Speech: Interspeech, ICASSP, SLT</li>
+                    <li>Other: Eurographics, ICDAR</li>
+                  </ul>
+                  <p>
+                    Useful trackers for deadlines:
+                  </p>
+                  <ul>
+                    <li>
+                      <a href="https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM">AI Deadlines</a> &mdash; most
+                      relevant categories are ML, CV, and NLP.
+                    </li>
+                  </ul>
+                  <p>
+                    Before submitting, it's worth getting feedback on a draft: <a href="https://paperreview.ai">Stanford
+                    Agentic Reviewer</a> gives free AI-generated review feedback (you can specify the target venue)
+                    to help catch issues ahead of the real reviewers.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td class="section">
+                  <h3>Project Pages, Posters, and Videos</h3>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px">
+                  <p>
+                    Once a paper is accepted (or posted on arXiv), it's standard to prepare a project page. Feel
+                    free to reuse the format of this site or of our papers' project pages (see the
+                    <a href="publications.html">Publications</a> page) &mdash; you can "view source" in your
+                    browser to get the HTML and adapt it, and host it for free with GitHub Pages.
+                  </p>
+                  <p><b>Posters:</b></p>
+                  <ul>
+                    <li>Good tools: Microsoft PowerPoint or <a href="https://app.diagrams.net/">draw.io</a>.</li>
+                    <li><a href="https://github.com/itailang/poster_guide">Itai Lang's poster guide</a>.</li>
+                    <li><a href="https://github.com/zhoubolei/bolei_awesome_posters">CVPR &amp; NeurIPS poster
+                        templates (Bolei Zhou)</a>.</li>
+                  </ul>
+                  <p><b>Videos:</b> some conferences require a short video presenting your work.</p>
+                  <ul>
+                    <li>You can record slides with narration via Zoom or PowerPoint's recording feature.</li>
+                    <li>
+                      Recommended: use <a href="https://podcast.adobe.com/enhance">Adobe Enhance</a> (free) to
+                      clean up audio quality. Split the audio track with <code>ffmpeg</code>
+                      (<code>ffmpeg -i video.mp4 video.mp3</code>), enhance it, then splice it back in
+                      (<code>ffmpeg -i video.mp4 -i enhanced_audio.wav -c:v copy -map 0:v:0 -map 1:a:0
+                        new_video.mp4</code>).
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td class="section">
+                  <h3>Research Tools</h3>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px">
+                  <p><b>Finding and organizing papers:</b></p>
+                  <ul>
+                    <li><a href="https://scholar.google.com/">Google Scholar</a></li>
+                    <li><a href="https://www.connectedpapers.com/">Connected Papers</a></li>
+                    <li>Zotero / Mendeley for reference management</li>
+                    <li><a href="https://www.scholar-inbox.com/">Scholar Inbox</a> for personalized paper
+                      recommendations</li>
+                  </ul>
+                  <p><b>Staying up to date:</b></p>
+                  <ul>
+                    <li><a href="https://deeplearn.org/">Deep Learning Monitor</a></li>
+                  </ul>
+                  <p><b>Including images in papers/talks:</b> make sure images have a free license &mdash; use
+                    Google Image Search's "Usage Rights" filter, or search
+                    <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a> or
+                    <a href="https://unsplash.com/">Unsplash</a> (and follow
+                    <a href="https://wiki.creativecommons.org/wiki/Best_practices_for_attribution">best practices
+                      for attribution</a>).</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+  </table>
+</body>
+
+</html>
