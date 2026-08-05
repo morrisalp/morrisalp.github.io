@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <title>For Students - Morris Alper</title>
+  <title>Resources - Morris Alper</title>
 
   <meta name="author" content="Morris Alper">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +22,7 @@
           <nav class="navbar">
             <a href="index.html">About</a>
             <a href="publications.html">Publications</a>
-            <a href="students.html" class="active">For Students</a>
+            <a href="students.html" class="active">Resources</a>
             <a href="news.html">News &amp; Awards</a>
           </nav>
           <table
@@ -30,11 +30,11 @@
             <tbody>
               <tr>
                 <td class="section">
-                  <h2>For Students</h2>
+                  <h2>Resources</h2>
                 </td>
               </tr>
               <tr>
-                <td style="padding:20px">
+                <td style="padding:20px 20px 0 20px">
                   <p>
                     This page collects practical resources and guidelines for students and collaborators working
                     with me &mdash; e.g. how to upload papers to arXiv, information about the conferences we
@@ -43,19 +43,25 @@
                   </p>
                 </td>
               </tr>
+              <tr>
+                <td style="text-align:center;padding:10px 20px 20px 20px">
+                  <div id="resource-tabs">
+                    <button class="tag-filter active" data-target="arxiv">Uploading Papers to arXiv</button>
+                    <button class="tag-filter" data-target="conferences">Conferences We Submit To</button>
+                    <button class="tag-filter" data-target="pages">Project Pages, Posters, and Videos</button>
+                    <button class="tag-filter" data-target="tools">Research Tools</button>
+                  </div>
+                </td>
+              </tr>
             </tbody>
           </table>
 
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-              <tr>
-                <td class="section">
-                  <h3>Uploading Papers to arXiv</h3>
-                </td>
-              </tr>
-              <tr>
+              <tr id="resource-panel-arxiv" class="resource-panel">
                 <td style="padding:20px">
+                  <h3>Uploading Papers to arXiv</h3>
                   <p>
                     We typically write papers in <a href="https://www.overleaf.com">Overleaf</a>. arXiv expects
                     submission files in a specific format, and it's easy to get stuck on non-compiling submissions.
@@ -89,19 +95,10 @@
                   </ol>
                 </td>
               </tr>
-            </tbody>
-          </table>
 
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td class="section">
-                  <h3>Conferences We Submit To</h3>
-                </td>
-              </tr>
-              <tr>
+              <tr id="resource-panel-conferences" class="resource-panel" style="display:none">
                 <td style="padding:20px">
+                  <h3>Conferences We Submit To</h3>
                   <p>
                     We mostly target the major NLP, vision, and speech venues, including:
                   </p>
@@ -128,19 +125,10 @@
                   </p>
                 </td>
               </tr>
-            </tbody>
-          </table>
 
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td class="section">
-                  <h3>Project Pages, Posters, and Videos</h3>
-                </td>
-              </tr>
-              <tr>
+              <tr id="resource-panel-pages" class="resource-panel" style="display:none">
                 <td style="padding:20px">
+                  <h3>Project Pages, Posters, and Videos</h3>
                   <p>
                     Once a paper is accepted (or posted on arXiv), it's standard to prepare a project page. Feel
                     free to reuse the format of this site or of our papers' project pages (see the
@@ -167,19 +155,10 @@
                   </ul>
                 </td>
               </tr>
-            </tbody>
-          </table>
 
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td class="section">
-                  <h3>Research Tools</h3>
-                </td>
-              </tr>
-              <tr>
+              <tr id="resource-panel-tools" class="resource-panel" style="display:none">
                 <td style="padding:20px">
+                  <h3>Research Tools</h3>
                   <p><b>Finding and organizing papers:</b></p>
                   <ul>
                     <li><a href="https://scholar.google.com/">Google Scholar</a></li>
@@ -205,6 +184,25 @@
         </td>
       </tr>
   </table>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var buttons = document.querySelectorAll('#resource-tabs .tag-filter');
+      var panels = document.querySelectorAll('.resource-panel');
+
+      buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          buttons.forEach(function (b) { b.classList.remove('active'); });
+          button.classList.add('active');
+
+          var target = button.getAttribute('data-target');
+          panels.forEach(function (panel) {
+            panel.style.display = (panel.id === 'resource-panel-' + target) ? '' : 'none';
+          });
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
