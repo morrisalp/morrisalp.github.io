@@ -228,3 +228,13 @@ span.highlight {
 .award {
   color: #e0282e;
 }
+
+
+.page-footer {
+  margin-top: 60px;
+  padding: 0 20px 20px 20px;
+  text-align: right;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #bbb;
+}
